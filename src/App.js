@@ -6,7 +6,8 @@ import './App.css';
 // import HookUseEffectCounter from './components/HookUseEffectCounter';
 // import HookUseEffectMouse from './components/HookUseEffectMouse';
 // import HookUseEffectMouseContainer from './components/HookUseEffectMouseContainer';
-import HookUseEffectInterval from './components/HookUseEffectInterval';
+// import HookUseEffectInterval from './components/HookUseEffectInterval';
+import HookUseEffectDataFetch from './components/HookUseEffectDataFetch';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <HookUseEffectCounter /> */}
       {/* <HookUseEffectMouse /> */}
       {/* <HookUseEffectMouseContainer /> */}
-      <HookUseEffectInterval />
+      {/* <HookUseEffectInterval /> */}
+      <HookUseEffectDataFetch />
     </div>
   );
 }
